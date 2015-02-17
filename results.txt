@@ -1,0 +1,197 @@
+%%%%% RESULTS FOR K=1 %%%%%
+
+Time: 8.887126
+Gia to digit=0 brikame 95 lathi sta 980 dedomena elegxou. Error Percentage:9.694
+
+Time: 10.339731
+Gia to digit=1 brikame 50 lathi sta 1135 dedomena elegxou. Error Percentage:4.405
+
+Time: 9.456375
+Gia to digit=2 brikame 176 lathi sta 1032 dedomena elegxou. Error Percentage:17.054
+
+Time: 9.161599
+Gia to digit=3 brikame 165 lathi sta 1010 dedomena elegxou. Error Percentage:16.337
+
+Time: 8.962838
+Gia to digit=4 brikame 185 lathi sta 982 dedomena elegxou. Error Percentage:18.839
+
+Time: 8.084395
+Gia to digit=5 brikame 261 lathi sta 892 dedomena elegxou. Error Percentage:29.260
+
+Time: 8.650626
+Gia to digit=6 brikame 108 lathi sta 958 dedomena elegxou. Error Percentage:11.273
+
+Time: 9.289695
+Gia to digit=7 brikame 159 lathi sta 1028 dedomena elegxou. Error Percentage:15.467
+
+Time: 8.918692
+Gia to digit=8 brikame 215 lathi sta 974 dedomena elegxou. Error Percentage:22.074
+
+Time: 9.193227
+Gia to digit=9 brikame 162 lathi sta 1009 dedomena elegxou. Error Percentage:16.056
+
+%%%%% RESULTS FOR K=2 %%%%%
+
+Time: 17.920014
+Gia to digit=0 brikame 80 lathi sta 980 dedomena elegxou. Error Percentage:8.163
+
+Time: 20.517801
+Gia to digit=1 brikame 29 lathi sta 1135 dedomena elegxou. Error Percentage:2.555
+
+Time: 18.606854
+Gia to digit=2 brikame 117 lathi sta 1032 dedomena elegxou. Error Percentage:11.337
+
+Time: 18.142555
+Gia to digit=3 brikame 152 lathi sta 1010 dedomena elegxou. Error Percentage:15.050
+
+Time: 17.641414
+Gia to digit=4 brikame 162 lathi sta 982 dedomena elegxou. Error Percentage:16.497
+
+Time: 15.905137
+Gia to digit=5 brikame 177 lathi sta 892 dedomena elegxou. Error Percentage:19.843
+
+Time: 17.593126
+Gia to digit=6 brikame 62 lathi sta 958 dedomena elegxou. Error Percentage:6.472
+
+Time: 18.646012
+Gia to digit=7 brikame 148 lathi sta 1028 dedomena elegxou. Error Percentage:14.397
+
+Time: 17.695043
+Gia to digit=8 brikame 148 lathi sta 974 dedomena elegxou. Error Percentage:15.195
+
+Time: 18.260338
+Gia to digit=9 brikame 136 lathi sta 1009 dedomena elegxou. Error Percentage:13.479
+
+%%%%% RESULTS FOR K=4 %%%%%
+
+Time: 35.693074
+Gia to digit=0 brikame 37 lathi sta 980 dedomena elegxou. Error Percentage:3.776
+
+Time: 41.224827
+Gia to digit=1 brikame 29 lathi sta 1135 dedomena elegxou. Error Percentage:2.555
+
+Time: 37.738373
+Gia to digit=2 brikame 80 lathi sta 1032 dedomena elegxou. Error Percentage:7.752
+
+Time: 36.703961
+Gia to digit=3 brikame 107 lathi sta 1010 dedomena elegxou. Error Percentage:10.594
+
+Time: 36.069929
+Gia to digit=4 brikame 128 lathi sta 982 dedomena elegxou. Error Percentage:13.035
+
+Time: 32.439297
+Gia to digit=5 brikame 145 lathi sta 892 dedomena elegxou. Error Percentage:16.256
+
+Time: 34.868711
+Gia to digit=6 brikame 40 lathi sta 958 dedomena elegxou. Error Percentage:4.175
+
+Time: 37.373607
+Gia to digit=7 brikame 110 lathi sta 1028 dedomena elegxou. Error Percentage:10.700
+
+Time: 35.142676
+Gia to digit=8 brikame 132 lathi sta 974 dedomena elegxou. Error Percentage:13.552
+
+Time: 36.435475
+Gia to digit=9 brikame 138 lathi sta 1009 dedomena elegxou. Error Percentage:13.677
+
+%%%%% RESULTS FOR K=8 %%%%%
+
+Time: 71.384123
+Gia to digit=0 brikame 30 lathi sta 980 dedomena elegxou. Error Percentage:3.061
+
+Time: 82.228879
+Gia to digit=1 brikame 22 lathi sta 1135 dedomena elegxou. Error Percentage:1.938
+
+Time: 76.076597
+Gia to digit=2 brikame 73 lathi sta 1032 dedomena elegxou. Error Percentage:7.074
+
+Time: 74.250902
+Gia to digit=3 brikame 97 lathi sta 1010 dedomena elegxou. Error Percentage:9.604
+
+Time: 71.814212
+Gia to digit=4 brikame 106 lathi sta 982 dedomena elegxou. Error Percentage:10.794
+
+Time: 65.149773
+Gia to digit=5 brikame 104 lathi sta 892 dedomena elegxou. Error Percentage:11.659
+
+Time: 70.630935
+Gia to digit=6 brikame 37 lathi sta 958 dedomena elegxou. Error Percentage:3.862
+
+Time: 75.794196
+Gia to digit=7 brikame 114 lathi sta 1028 dedomena elegxou. Error Percentage:11.089
+
+Time: 73.185363
+Gia to digit=8 brikame 93 lathi sta 974 dedomena elegxou. Error Percentage:9.548
+
+Time: 73.481448
+Gia to digit=9 brikame 102 lathi sta 1009 dedomena elegxou. Error Percentage:10.109
+
+%%%%% RESULTS FOR K=16 %%%%%
+
+Time: 143.501532
+Gia to digit=0 brikame 30 lathi sta 980 dedomena elegxou. Error Percentage:3.061
+
+Time: 165.952053
+Gia to digit=1 brikame 40 lathi sta 1135 dedomena elegxou. Error Percentage:3.524
+
+Time: 153.357663
+Gia to digit=2 brikame 59 lathi sta 1032 dedomena elegxou. Error Percentage:5.717
+
+Time: 146.757309
+Gia to digit=3 brikame 93 lathi sta 1010 dedomena elegxou. Error Percentage:9.208
+
+Time: 142.238806
+Gia to digit=4 brikame 80 lathi sta 982 dedomena elegxou. Error Percentage:8.147
+
+Time: 128.868675
+Gia to digit=5 brikame 76 lathi sta 892 dedomena elegxou. Error Percentage:8.520
+
+Time: 139.229665
+Gia to digit=6 brikame 35 lathi sta 958 dedomena elegxou. Error Percentage:3.653
+
+Time: 148.841994
+Gia to digit=7 brikame 86 lathi sta 1028 dedomena elegxou. Error Percentage:8.366
+
+Time: 141.232699
+Gia to digit=8 brikame 67 lathi sta 974 dedomena elegxou. Error Percentage:6.879
+
+Time: 146.141923
+Gia to digit=9 brikame 79 lathi sta 1009 dedomena elegxou. Error Percentage:7.830
+
+%%%%% RESULTS FOR K=32 %%%%%
+
+Time: 285.591570
+Gia to digit=0 brikame 28 lathi sta 980 dedomena elegxou. Error Percentage:2.857
+
+Time: 330.060246
+Gia to digit=1 brikame 41 lathi sta 1135 dedomena elegxou. Error Percentage:3.612
+
+Time: 300.451349
+Gia to digit=2 brikame 48 lathi sta 1032 dedomena elegxou. Error Percentage:4.651
+
+Time: 293.554899
+Gia to digit=3 brikame 86 lathi sta 1010 dedomena elegxou. Error Percentage:8.515
+
+Time: 285.525218
+Gia to digit=4 brikame 73 lathi sta 982 dedomena elegxou. Error Percentage:7.434
+
+Time: 259.830544
+Gia to digit=5 brikame 77 lathi sta 892 dedomena elegxou. Error Percentage:8.632
+
+Time: 279.326776
+Gia to digit=6 brikame 40 lathi sta 958 dedomena elegxou. Error Percentage:4.175
+
+Time: 298.956457
+Gia to digit=7 brikame 94 lathi sta 1028 dedomena elegxou. Error Percentage:9.144
+
+Time: 287.685065
+Gia to digit=8 brikame 56 lathi sta 974 dedomena elegxou. Error Percentage:5.749
+
+Time: 293.892196
+Gia to digit=9 brikame 90 lathi sta 1009 dedomena elegxou. Error Percentage:8.920
+Gia K=1, error percentage was 15.760
+Gia K=2, error percentage was 12.110
+Gia K=4, error percentage was 9.460
+Gia K=8, error percentage was 7.780
+Gia K=16, error percentage was 6.450
+Gia K=32, error percentage was 6.330
