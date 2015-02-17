@@ -1,7 +1,7 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%%% Digit Classification (0,1,2,...,9)	     %%%
+%%% Digit Classification (0,1,2,...,9)	      %%%
 %%% project for Machine Learning, AUEB, 2014 %%%
-%%% John Zobolas					         %%%
+%%% John Zobolas					               %%%
 %%% TRAIN THE DATA!!!                        %%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
