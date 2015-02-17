@@ -2,7 +2,7 @@
 %%% Digit Classification (0,1,2,...,9)	     %%%
 %%% project for Machine Learning, AUEB, 2014 %%%
 %%% John Zobolas					         %%%
-%%% TEST THE DATA!!!                        %%%
+%%% TEST THE DATA!!!                         %%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 % We assume that the bernoullimix3(.m) has ran
