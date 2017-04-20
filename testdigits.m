@@ -9,8 +9,7 @@
 % and has produced the necessary data
 % -> m(N,K),p(K) for every k.
 
-% allazoume ta test data gia na einai kai auta
-% me 0 kai 1:
+% we change the test data, making them either 0 or 1:
 test = cell(1,10);
 for digit=1:10
     x = double(testDataList{digit});
@@ -19,27 +18,23 @@ for digit=1:10
     test{digit} = x;
 end
 
-% briskoume tis ek ton proteron pithanotites
-% gia kathe psifio apo to training set: (ep(digit)=N(digit)/N(all))
+% find the a priori probabilities for every digit using the
+% training set: (ep(digit)=N(digit)/N(all))
 ep = zeros(1,10);
 for digit=1:10
    ep(digit) = size(trainDataList{digit},1); 
 end
 ep = ep./sum(ep);
 
-% den allazei apo prin i diastasi:
+% dimension of data:
 D = 784;
 
-% to arxeio opou tha grapsoume ta apotelesmata
 fileID = fopen('results.txt','w');
 
-% krata to pososto ton lathon gia ola ta psifia
-% ksexorista gia kathe K:
+% for every K find a different average Error (for all the digits):
 avgError = zeros(1,6);
 
-% apo prin:
 KList = [1 2 4 8 16 32]; 
-% BALE 1:6 !!!!!
 for numOfK = 1:6
 
 totalTestData = 0;
@@ -49,16 +44,15 @@ K = KList(numOfK);
 fprintf(fileID,'\n%%%%%%%%%% RESULTS FOR K=%d %%%%%%%%%%\n',K);
 
 for testdigit=1:10
-    % eksetazoume to (digit-1) kathe fora
+    % testdigit is an index
     
-    % x o pinakas ton test data
+    % x is the matrix with the test data
     x = test{testdigit};
     
-    % how much test data for (digit-1)
+    % how much test data for this digit
     N = size(x,1);
     
-    % pinakas ipo sinthiki katanomon: pith(N,10)
-    % kathe grammi antistoixei se ena test data
+    % pith(N,10) is the matrix distribution
     pith = zeros(N,10);
     tic
     for n=1:N
@@ -77,22 +71,21 @@ for testdigit=1:10
     time=toc;
     fprintf(fileID,'\nTime: %f', time);
     
-    maxp = max(pith,[],2)'; %max kathe grammis
+    maxp = max(pith,[],2)'; % max of every row 
     pith = pith - maxp'*ones(1,10);
     pith = exp(pith);
     
-    % pinakas athroismaton by grammes
     sumpith = sum(pith,2);
     
     for n=1:N
       pith(n,:) = pith(n,:)/sumpith(n); 
     end
     
-    % thelo na chekaro poses fores sta test data
-    % i pithanotita na itan ontos stin katigoria pou
-    % ksero oti itan ena psifio, eimai i magaliteri!!!
+    % I want to check how many times in the test data the probability that a digit was indeed 
+    % the one it should be, is the largest of all! E.g. for a test digit of '4' I expect the probability
+    % that it is indeed '4' to be larger, than for it to be '0,','1','2','3','5','6','7','8' or '9'.
     
-    %vector-stili me tis theseis ton megaliteron se kathe grammi tou pith:
+    % a column-vector with the indexes of the largest elements of every row of pith matrix:
     [~,index] = max(pith,[],2); 
     
     count = 0;
@@ -102,21 +95,20 @@ for testdigit=1:10
        end
     end
     
-    fprintf(fileID,'\nGia to digit=%d brikame %d lathi sta %d dedomena elegxou. Error Percentage:%.3f\n',testdigit-1,count,N,(count/N)*100);
+    fprintf(fileID,'\nFor the digit=%d we found %d mistakes in %d test data. Error Percentage:%.3f\n',testdigit-1,count,N,(count/N)*100);
     
     totalCount = totalCount + count;
     totalTestData = totalTestData + N;
 
 end
 
-% oso einai to numOfK:
 avgError(numOfK) = (totalCount/totalTestData)*100;
 
 end
-% BALE 1:6 !!!!!
+
 for numOfK=1:6
     K = KList(numOfK);
-    fprintf(fileID,'Gia K=%d, error percentage was %.3f\n',K,avgError(numOfK));
+    fprintf(fileID,'For K=%d, the total error percentage was %.3f\n',K,avgError(numOfK));
 end
 
 fclose(fileID);
