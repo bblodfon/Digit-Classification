@@ -9,6 +9,6 @@ By running bernoullimix3.m file you train the dataset for all bernoulli mixes. I
 for different values of Kplot (number of Mixes), you will see what we have "learned" from the test dataset for each Mix 
 (larger K means more different forms for every digit). Lastly, if you run the test_digits.m file you will get the final results (avg error percentage for every Mix and for every digit/Mix) on the results.txt file.
 
-The .pptx file has the presentation I did for the project in the univercity (AUEB).
+The .pptx file has the presentation I did of this project for the Machine Learning Course, during my MSc (AUEB).
 
 The code was tested on Matlab (R2011a).
