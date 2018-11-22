@@ -1,4 +1,5 @@
-# digitClassification
+# digit-classifier
+
 A Machine Learning project
 
 This project implements the Expectation Maximization algorithm using Bernoulli Mixes (we tested 1-32 Mixes) in order
